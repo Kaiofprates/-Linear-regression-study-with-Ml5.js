@@ -1,7 +1,7 @@
 const yolo = ml5.YOLO(modelReady); let img; let objects = []; let status;
 function setup() {
   createCanvas(640, 420);
-  img = createImg('./galo.jpg', imageReady);
+  img = createImg('./louro.jpeg', imageReady);
   img.hide();
   img.size(640, 420);
 
